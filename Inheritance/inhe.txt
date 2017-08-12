@@ -1,0 +1,8 @@
+package inheritance2;
+
+public class DeskTop {
+	public void Monitor(){
+		System.out.println("The montor is screen touched");
+	}
+
+}

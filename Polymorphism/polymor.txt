@@ -1,0 +1,28 @@
+package polymorphism;
+
+public class DistanceCal {
+	public static void main (String[]args){
+		Distance objDis = new Distance();
+		objDis.DistanceCalculation(5, 30);
+		int DestinationTime = objDis.DistanceCalculation(5, 30);
+		
+		System.out.println(DestinationTime);
+		objDis.DistanceCalculation(10, 15, 20);
+		int DestinationHome = objDis.DistanceCalculation(10, 15, 20);
+		System.out.println(DestinationHome);
+		
+		
+		objDis.DistanceCalculation(10, 15, 20,30);
+		int DestinationVill = objDis.DistanceCalculation(10, 15, 20, 30);
+		System.out.println(DestinationVill);
+		
+		
+		
+		objDis.DistanceCalculation(10, 15, 20,30, 5);
+		int DestinationAVG = objDis.DistanceCalculation(10, 15, 20, 30,5);
+		System.out.println(DestinationAVG);
+			
+		
+	}
+
+}

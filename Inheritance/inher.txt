@@ -1,0 +1,5 @@
+package inheritance2;
+
+public class LapTop extends DeskTop{
+	public void Sound(){
+		System.out.println("The sound system has improved");	}

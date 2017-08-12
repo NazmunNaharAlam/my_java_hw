@@ -1,0 +1,26 @@
+package polymorphism;
+
+public class Distance {
+
+	public int DistanceCalculation(int a, int b) {
+		int totalTime = a * b;
+		return totalTime;
+
+	}
+
+	public int DistanceCalculation(int a, int b, int c) {
+		int totalTime = a * b * c;
+		return totalTime;
+
+	}
+	public int DistanceCalculation(int a, int b, int c, int d) {
+		int totalTime = a * b * c * d;
+		return totalTime;
+
+	
+}
+	public int DistanceCalculation(int a, int b, int c, int d, int e) {
+		int totalTime = (a * b * c * d )/e;
+		return totalTime;	
+}
+}

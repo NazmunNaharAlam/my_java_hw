@@ -1,0 +1,23 @@
+package Sikder;
+
+public class Calculator extends Abst1 implements Inter1,Inter2 {
+	public void multiply()
+
+	{
+		System.out.print("This calculator can multiply any numbers");
+
+	}
+
+	public void divide() {
+		System.out.println("This calculator can divide only integer number");
+
+	}
+
+	public  void Charge(){
+		System.out.println("you can charge this calculator");
+		
+	}
+	public void Equal(){
+		System.out.println("you can see the result");
+	}
+}

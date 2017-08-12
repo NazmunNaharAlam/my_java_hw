@@ -1,0 +1,36 @@
+package Encapsulation2;
+
+public class Committee {
+	
+	private String memberPosition;
+	private int memberId;
+	private double memberDonation;
+	private String memberName;
+	
+	public String getMemberName() {
+		return memberName;
+	}
+	public void setMemberName(String memberName) {
+		this.memberName = memberName;
+	}
+	public String getMemberPosition() {
+		return memberPosition;
+	}
+	public void setMemberPosition(String memberPosition) {
+		this.memberPosition = memberPosition;
+	}
+	public int getMemberId() {
+		return memberId;
+	}
+	public void setMemberId(int memberId) {
+		this.memberId = memberId;
+	}
+	public double getMemberDonation() {
+		return memberDonation;
+	}
+	public void setMemberDonation(double memberDonation) {
+		this.memberDonation = memberDonation;
+	}
+	
+
+}

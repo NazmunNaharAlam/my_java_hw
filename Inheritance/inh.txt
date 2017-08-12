@@ -1,0 +1,8 @@
+package inheritance2;
+
+public class CountingMachine extends DeskTop {
+	public void Count(){
+		System.out.println("It can count all numbers");
+	}
+
+}

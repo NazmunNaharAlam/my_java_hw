@@ -1,0 +1,8 @@
+package inheritance2;
+
+public class PalmTop extends LapTop{
+	public void Handy(){
+		System.out.println("This machine is user friendy");
+	}
+
+}

@@ -1,0 +1,12 @@
+package Encapsulation2;
+
+public class CommitteeMain {
+	public static void main (String []args){
+		Committee comA = new Committee ();
+		comA.setMemberDonation(1275.50);
+		comA.setMemberId(10000);
+		comA.setMemberName("Smith");
+		comA.setMemberPosition("Accountant");
+		System.out.println(comA.getMemberDonation() + "  " + comA.getMemberId() + " " + comA.getMemberName() + "  " + comA.getMemberPosition());
+		}
+}

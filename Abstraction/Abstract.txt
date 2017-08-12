@@ -1,0 +1,50 @@
+package Sikder;
+
+public interface Inter1 {
+	public void multiply();
+	
+
+}
+——————————————————————————————————————————
+
+
+package Sikder;
+
+public interface Inter2 {
+	public void divide();
+	
+
+}
+—————————————————————————————————————————
+package Sikder;
+
+public abstract class Abst1 {
+	public void Add(){
+		System.out.println("It can add numbers");
+	}
+	public abstract void Charge();
+
+}
+
+——————————————————————————————————————————————————————————————
+
+package Sikder;
+
+public class ModernCalculator{
+	public static void main (String[]args){
+		Inter1 objI1 = new Calculator();
+		objI1.multiply();
+		Inter2 objI2 = new Calculator();
+		objI2.divide();
+		Abst1 objI3 = new Calculator();
+		objI3.Add();
+		objI3.Charge();
+		
+		Calculator objCal = new Calculator();
+		objCal.Equal();
+		
+	}
+	
+	
+	
+}
